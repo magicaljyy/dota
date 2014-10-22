@@ -1,13 +1,13 @@
-require 'dota/configuration'
-require 'dota/connection'
+require_relative 'configuration'
+require_relative 'connection'
 
-require 'dota/match'
-require 'dota/league'
-require 'dota/live_league'
-require 'dota/history'
-require 'dota/profile'
-require 'dota/ban'
-require 'dota/friend'
+require_relative 'match'
+require_relative 'league'
+require_relative 'live_league'
+require_relative 'history'
+require_relative 'profile'
+require_relative 'ban'
+require_relative 'friend'
 
 module Dota
   class Client

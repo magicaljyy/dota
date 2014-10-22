@@ -1,6 +1,6 @@
-require 'dota/utils/inspectable'
-require 'dota/constants/community_visibility'
-require 'dota/constants/profile_status'
+require_relative 'utils/inspectable'
+require_relative 'constants/community_visibility'
+require_relative 'constants/profile_status'
 
 module Dota
   class Profile

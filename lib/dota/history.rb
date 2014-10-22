@@ -1,6 +1,6 @@
-require 'dota/basic_player'
-require 'dota/basic_match'
-require 'dota/utils/inspectable'
+require_relative 'basic_player'
+require_relative 'basic_match'
+require_relative 'utils/inspectable'
 
 module Dota
   class History

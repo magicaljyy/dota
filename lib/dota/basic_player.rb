@@ -1,5 +1,5 @@
-require 'dota/constants/heroes'
-require 'dota/utils/inspectable'
+require_relative 'constants/heroes'
+require_relative 'utils/inspectable'
 
 module Dota
   class BasicPlayer

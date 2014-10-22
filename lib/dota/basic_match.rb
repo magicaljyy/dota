@@ -1,5 +1,5 @@
-require 'dota/utils/inspectable'
-require 'dota/constants/lobbies'
+require_relative 'utils/inspectable'
+require_relative 'constants/lobbies'
 
 module Dota
   class BasicMatch

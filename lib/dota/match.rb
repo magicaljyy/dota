@@ -1,7 +1,7 @@
-require 'dota/basic_player'
-require 'dota/basic_match'
-require 'dota/constants/modes'
-require 'dota/constants/items'
+require_relative 'basic_player'
+require_relative 'basic_match'
+require_relative 'constants/modes'
+require_relative 'constants/items'
 
 module Dota
   class Match < BasicMatch

@@ -1,6 +1,6 @@
-require 'dota/basic_player'
-require 'dota/team'
-require 'dota/utils/inspectable'
+require_relative 'basic_player'
+require_relative 'team'
+require_relative 'utils/inspectable'
 
 module Dota
   class LiveLeague

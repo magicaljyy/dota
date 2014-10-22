@@ -1,4 +1,4 @@
-require 'dota/utils/inspectable'
+require_relative 'utils/inspectable'
 
 module Dota
   class Ban
