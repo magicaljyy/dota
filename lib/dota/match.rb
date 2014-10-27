@@ -5,6 +5,15 @@ require_relative 'constants/items'
 
 module Dota
   class Match < BasicMatch
+    
+    def getPlayer(id)
+      players.each do |player|
+        if player.id == id
+          return player
+        end
+      end
+    end
+    
     # The winner of the match
     #
     # @return [Symbol] the winner, :radiant or :dire
